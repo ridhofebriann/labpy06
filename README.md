@@ -315,6 +315,29 @@ Keluar dari Program: Jika pengguna memilih untuk keluar (pilihan 5), program men
 
 Pesan Pilihan Tidak Valid: Jika pengguna memasukkan pilihan yang tidak valid, program mencetak pesan yang sesuai dan meminta pengguna untuk mencoba lagi.
 
+### Tampilan Program Saat Dijalankan
+
+##### menu
+![menu]()
+
+##### pilihan 1 Tambah Data +  pilihan 2 menampilkan info siswa
+![tambah data1]()
+![menampilkan pilihan 2]()
+
+##### pilihan 4 Ubah Data + pilihan 2 menampilkan info siswa
+![ubah data4]()
+![menampilkan pilihan 2()
+
+
+##### pilihan 3 Hapus Data 
+![hapus data]()
+
+
+##### pilihan 5 Keluar
+![keluar]()
+
+Pesan Pilihan Tidak Valid: Jika pengguna memasukkan pilihan yang tidak valid, program mencetak pesan yang sesuai dan meminta pengguna untuk mencoba lagi.
+
 
 
 
