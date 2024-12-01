@@ -332,8 +332,10 @@ Pesan Pilihan Tidak Valid: Jika pengguna memasukkan pilihan yang tidak valid, pr
 
 
 
-##### pilihan 3 Hapus Data 
+##### pilihan 3 Hapus Data + pilihan 2 menampilkan info siswa
 ![hapus data](https://github.com/user-attachments/assets/7df31a47-532d-4f56-86ce-0867bd5637b1)
+
+![menampilkan pilihan 2](https://github.com/user-attachments/assets/167f5e1a-9529-4526-83bf-a30c4fc202b6)
 
 
 
