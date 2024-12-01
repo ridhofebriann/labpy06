@@ -48,9 +48,9 @@ def hitung_rata_rata(nama_siswa):
     else:
         return None
 
-def tampilkan_info_siswa():
+def tampilkan():
     """Fungsi untuk menampilkan informasi nilai siswa dan rata-ratanya."""
-    nama_siswa = input("Masukkan nama siswa untuk menampilkan info: ")
+    nama_siswa = input("Masukkan nama siswa untuk menampilkan data: ")
     nilai_siswa = daftar_mahasiswa.get(nama_siswa)  # Ambil data siswa
 
     if nilai_siswa:
@@ -93,8 +93,8 @@ def ubah(nama):
 while True:
     print("\nMenu:")
     print("Tekan 1 untuk menambah siswa")
-    print("Tekan 2 untuk menampilkan info siswa")
-    print("Tekan 3 untuk menghapus siswa")
+    print("Tekan 2 untuk menampilkan data")
+    print("Tekan 3 untuk menghapus data siswa")
     print("Tekan 4 untuk mengubah data siswa")
     print("Tekan 5 untuk keluar")
     
@@ -103,7 +103,7 @@ while True:
     if pilihan == 1:
         tambah_siswa()  # Tambah siswa baru
     elif pilihan == 2:
-        tampilkan_info_siswa()  # Tampilkan informasi siswa
+        tampilkan()  # Tampilkan informasi siswa
     elif pilihan == 3:
         nama = input("Masukkan nama siswa yang ingin dihapus: ")
         hapus(nama) 
@@ -195,9 +195,9 @@ Return: Mengembalikan nilai rata-rata. Jika siswa tidak ditemukan, mengembalikan
 
 4. Fungsi untuk Menampilkan Informasi Siswa
 ```python
-def tampilkan_info_siswa():
+def tampilkan():
     """F ungsi untuk menampilkan informasi nilai siswa dan rata-ratanya."""
-    nama_siswa = input("Masukkan nama siswa untuk menampilkan info: ")
+    nama_siswa = input("Masukkan nama siswa untuk menampilkan data: ")
     nilai_siswa = daftar_mahasiswa.get(nama_siswa)  # Ambil data siswa
 
     if nilai_siswa:
@@ -226,6 +226,7 @@ Pesan Tidak Ditemukan: Jika siswa tidak ditemukan, program mencetak pesan yang s
 
 5. Fungsi untuk Menghapus Data Siswa
 ```python
+def hapus(nama):
     """Fungsi untuk menghapus data siswa berdasarkan nama."""
     if nama in daftar_mahasiswa:
         del daftar_mahasiswa[nama]  # Hapus data siswa
@@ -280,8 +281,8 @@ Pesan Konfirmasi: Mencetak pesan yang mengonfirmasi bahwa data telah diperbarui.
 while True:
     print("\nMenu:")
     print("Tekan 1 untuk menambah siswa")
-    print("Tekan 2 untuk menampilkan info siswa")
-    print("Tekan 3 untuk menghapus siswa")
+    print("Tekan 2 untuk menampilkan data")
+    print("Tekan 3 untuk menghapus data siswa")
     print("Tekan 4 untuk mengubah data siswa")
     print("Tekan 5 untuk keluar")
     
@@ -290,7 +291,7 @@ while True:
     if pilihan == 1:
         tambah_siswa()  # Tambah siswa baru
     elif pilihan == 2:
-        tampilkan_info_siswa()  # Tampilkan informasi siswa
+        tampilkan()  # Tampilkan informasi siswa
     elif pilihan == 3:
         nama = input("Masukkan nama siswa yang ingin dihapus: ")
         hapus(nama) 
@@ -318,24 +319,28 @@ Pesan Pilihan Tidak Valid: Jika pengguna memasukkan pilihan yang tidak valid, pr
 ### Tampilan Program Saat Dijalankan
 
 ##### menu
-![menu](https://github.com/user-attachments/assets/72b59e19-bc21-407c-98b9-74747c71707e)
+![menu](https://github.com/user-attachments/assets/47ae33b0-50fb-4ded-9b93-b633f265a053)
+
 
 
 ##### pilihan 1 Tambah Data +  pilihan 2 menampilkan info siswa
 ![tambah data1](https://github.com/user-attachments/assets/062d97cb-8397-4c48-8f5f-9f0a6eb30ceb)
-![menampilkan pilihan 2](https://github.com/user-attachments/assets/9fc03539-4338-4938-a78d-109b01b7c469)
+![menampilkan pilihan 2](https://github.com/user-attachments/assets/b21dc98d-cd25-4c46-96a2-7627d320ae0b)
+
 
 
 ##### pilihan 4 Ubah Data + pilihan 2 menampilkan info siswa
 ![ubah data4](https://github.com/user-attachments/assets/9976f85a-eb45-4966-9600-e5c7b4c28334)
-![menampilkan pilihan 2](https://github.com/user-attachments/assets/ef0b0194-d25d-415e-9540-106e6f07e0d9)
+![menampilkan pilihan 2](https://github.com/user-attachments/assets/c9aee54d-c75e-4f93-b787-de16535ccb89)
+
 
 
 
 ##### pilihan 3 Hapus Data + pilihan 2 menampilkan info siswa
 ![hapus data](https://github.com/user-attachments/assets/7df31a47-532d-4f56-86ce-0867bd5637b1)
 
-![menampilkan pilihan 2](https://github.com/user-attachments/assets/167f5e1a-9529-4526-83bf-a30c4fc202b6)
+![menampilkan pilihan 2](https://github.com/user-attachments/assets/a756f562-6df2-451d-b418-aca517addb53)
+
 
 
 
