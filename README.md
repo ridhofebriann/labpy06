@@ -318,25 +318,28 @@ Pesan Pilihan Tidak Valid: Jika pengguna memasukkan pilihan yang tidak valid, pr
 ### Tampilan Program Saat Dijalankan
 
 ##### menu
-![menu]()
+![menu](https://github.com/user-attachments/assets/72b59e19-bc21-407c-98b9-74747c71707e)
+
 
 ##### pilihan 1 Tambah Data +  pilihan 2 menampilkan info siswa
-![tambah data1]()
-![menampilkan pilihan 2]()
+![tambah data1](https://github.com/user-attachments/assets/062d97cb-8397-4c48-8f5f-9f0a6eb30ceb)
+![menampilkan pilihan 2](https://github.com/user-attachments/assets/9fc03539-4338-4938-a78d-109b01b7c469)
+
 
 ##### pilihan 4 Ubah Data + pilihan 2 menampilkan info siswa
-![ubah data4]()
-![menampilkan pilihan 2()
+![ubah data4](https://github.com/user-attachments/assets/9976f85a-eb45-4966-9600-e5c7b4c28334)
+![menampilkan pilihan 2](https://github.com/user-attachments/assets/ef0b0194-d25d-415e-9540-106e6f07e0d9)
+
 
 
 ##### pilihan 3 Hapus Data 
-![hapus data]()
+![hapus data](https://github.com/user-attachments/assets/7df31a47-532d-4f56-86ce-0867bd5637b1)
+
 
 
 ##### pilihan 5 Keluar
-![keluar]()
+![keluar](https://github.com/user-attachments/assets/da1009b1-853a-4d09-83cb-ff08182e8625)
 
-Pesan Pilihan Tidak Valid: Jika pengguna memasukkan pilihan yang tidak valid, program mencetak pesan yang sesuai dan meminta pengguna untuk mencoba lagi.
 
 
 
