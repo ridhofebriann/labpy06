@@ -155,14 +155,14 @@ Input Mata Pelajaran: Dalam setiap iterasi, pengguna diminta untuk memasukkan na
 
 Input Nilai: Setelah itu, pengguna diminta untuk memasukkan nilai untuk mata pelajaran tersebut. Nilai ini diubah menjadi float untuk mengakomodasi nilai desimal.
 
-Simpan Nilai: Setiap pasangan mata pelajaran dan nilai disimpan dalam dictionary nilai_siswa.
+Simpan Nilai: Setiap pasangan mata pelajaran dan nilai disimpan dalam dictionary `nilai_siswa`.
 
 Menyimpan Data Siswa
 ```python
     daftar_mahasiswa[nama_siswa] = nilai_siswa  # Simpan nilai siswa dalam dictionary daftar_mahasiswa
     print(f"{nama_siswa} telah ditambahkan dengan nilai: {nilai_siswa}")
 ```
-Simpan Data: Setelah semua mata pelajaran dan nilai dimasukkan, dictionary nilai_siswa disimpan dalam daftar_mahasiswa dengan nama_siswa sebagai kunci.
+Simpan Data: Setelah semua mata pelajaran dan nilai dimasukkan, dictionary `nilai_siswa` disimpan dalam `daftar_mahasiswa` dengan `nama_siswa` sebagai kunci.
 
 Pesan Konfirmasi: Mencetak pesan yang mengonfirmasi bahwa siswa telah ditambahkan beserta nilai-nilai mereka.
 
@@ -182,13 +182,13 @@ def hitung_rata_rata(nama_siswa):
     else:
         return None
 ```
-Fungsi hitung_rata_rata: Fungsi ini digunakan untuk menghitung rata-rata nilai siswa berdasarkan nama yang diberikan.
+Fungsi `hitung_rata_rata`: Fungsi ini digunakan untuk menghitung rata-rata nilai siswa berdasarkan nama yang diberikan.
 
-Ambil Data Siswa: Menggunakan get() untuk mengambil nilai siswa dari daftar_mahasiswa. Jika nama tidak ditemukan, nilai_siswa akan menjadi None.
+Ambil Data Siswa: Menggunakan `get()` untuk mengambil nilai siswa dari `daftar_mahasiswa`. Jika nama tidak ditemukan, `nilai_siswa` akan menjadi None.
 
 Hitung Total dan Rata-rata:
-Jika nilai_siswa tidak None, program menghitung total nilai dengan sum() yang menjumlahkan semua nilai dalam dictionary.
-Menghitung jumlah mata pelajaran dengan len().
+Jika `nilai_siswa` tidak None, program menghitung total nilai dengan `sum()` yang menjumlahkan semua nilai dalam dictionary.
+Menghitung jumlah mata pelajaran dengan `len()`.
 Menghitung rata-rata dengan membagi total nilai dengan jumlah mata pelajaran.
 Return: Mengembalikan nilai rata-rata. Jika siswa tidak ditemukan, mengembalikan None.
 
@@ -211,15 +211,15 @@ def tampilkan():
     else:
         print(f"{nama_siswa} tidak ditemukan!!")
 ```
-Fungsi tampilkan_info_siswa: Fungsi ini digunakan untuk menampilkan informasi nilai siswa dan rata-ratanya.
+Fungsi `tampilkan`: Fungsi ini digunakan untuk menampilkan informasi nilai siswa dan rata-ratanya.
 
 Input Nama Siswa: Pengguna diminta untuk memasukkan nama siswa yang informasinya ingin ditampilkan.
 
-Ambil Data Siswa: Menggunakan get() untuk mengambil nilai siswa dari daftar_mahasiswa.
+Ambil Data Siswa: Menggunakan `get()` untuk mengambil nilai siswa dari `daftar_mahasiswa`.
 
 Tampilkan Nilai: Jika siswa ditemukan, program mencetak semua mata pelajaran dan nilai yang terkait.
 
-Hitung Rata-rata: Memanggil fungsi hitung_rata_rata untuk menghitung dan menampilkan rata-rata nilai siswa.
+Hitung Rata-rata: Memanggil fungsi `hitung_rata_rata` untuk menghitung dan menampilkan rata-rata nilai siswa.
 
 Pesan Tidak Ditemukan: Jika siswa tidak ditemukan, program mencetak pesan yang sesuai.
 
@@ -234,9 +234,9 @@ def hapus(nama):
     else:
         print(f"{nama} tidak ditemukan dalam data siswa.")
 ```
-Fungsi hapus: Fungsi ini digunakan untuk menghapus data siswa berdasarkan nama.
+Fungsi `hapus`: Fungsi ini digunakan untuk menghapus data siswa berdasarkan nama.
 
-Cek Keberadaan Siswa: Memeriksa apakah nama siswa ada dalam daftar_mahasiswa.
+Cek Keberadaan Siswa: Memeriksa apakah nama siswa ada dalam `daftar_mahasiswa`.
 
 Hapus Data: Jika ada, data siswa dihapus menggunakan del.
 
@@ -261,9 +261,9 @@ def ubah(nama):
     else:
         print(f"{nama} tidak ditemukan dalam data siswa.")
 ```
-Fungsi ubah: Fungsi ini digunakan untuk mengubah nilai mata pelajaran siswa yang sudah ada.
+Fungsi `ubah`: Fungsi ini digunakan untuk mengubah nilai mata pelajaran siswa yang sudah ada.
 
-Cek Keberadaan Siswa: Memeriksa apakah nama siswa ada dalam daftar_mahasiswa.
+Cek Keberadaan Siswa: Memeriksa apakah nama siswa ada dalam `daftar_mahasiswa`.
 
 Tampilkan Data Saat Ini: Jika ada, program menampilkan data saat ini untuk siswa tersebut.
 
@@ -271,7 +271,7 @@ Input Jumlah Perubahan: Meminta pengguna untuk memasukkan jumlah mata pelajaran 
 
 Loop untuk Mengubah Nilai: Menggunakan loop untuk meminta nama mata pelajaran yang ingin diubah dan nilai baru. Jika pengguna mengetik 'skip', program akan melewati iterasi tersebut.
 
-Update Data: Nilai baru disimpan dalam dictionary daftar_mahasiswa.
+Update Data: Nilai baru disimpan dalam dictionary `daftar_mahasiswa`.
 
 Pesan Konfirmasi: Mencetak pesan yang mengonfirmasi bahwa data telah diperbarui.
 
